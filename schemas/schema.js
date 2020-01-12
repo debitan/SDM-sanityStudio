@@ -32,6 +32,7 @@ import event from './objects/event'
 import review from './objects/review'
 import activity from './objects/activity'
 import captionImage from './objects/captionImage'
+import tag from './objects/tag'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -65,6 +66,7 @@ export default createSchema({
     events,
     review,
     activity,
-    captionImage
+    captionImage,
+    tag
   ])
 })

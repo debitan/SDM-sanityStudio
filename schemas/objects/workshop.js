@@ -17,7 +17,7 @@ export default {
             name: 'tag',
             title: 'タグ',
             type: 'array',
-            of: [{type: 'localeString'}]
+            of: [{type: 'tag'}]
         },
         {
             name: 'audience',
