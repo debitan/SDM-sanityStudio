@@ -6,15 +6,13 @@ export default {
         {
             name: 'image',
             title: 'イメージ',
-            type: 'image',
-            fields: [
-                {
-                    name: 'caption',
-                    title: 'キャプション',
-                    type: 'localeString',
-                    validation: rule => rule.required()
-                }
-            ]
+            type: 'image'
+        },
+        {
+            name: 'caption',
+            title: 'キャプション',
+            type: 'localeString',
+            validation: rule => rule.required()
         }
     ],
     preview: {

@@ -6,14 +6,12 @@ export default {
         {
             name: 'report',
             title: 'リポート',
-            type: 'file',
-            fields: [
-                {
-                    name: 'title',
-                    title: 'リポート名',
-                    type: 'localeString'
-                }
-            ]
+            type: 'file'
+        },
+        {
+            name: 'title',
+            title: 'リポート名',
+            type: 'localeString'
         },
         {
             name: 'image',
