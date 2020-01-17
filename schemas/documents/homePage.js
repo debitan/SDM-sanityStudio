@@ -55,6 +55,11 @@ export default {
       type: 'localeBlock',
     },
     {
+      name: 'supportedDecisionMakingImage',
+      title: '意思決定支援とはのイメージ',
+      type: 'captionImage'
+    },
+    {
       name: 'activityTitle',
       title: '私たちの活動のタイトル',
       type: 'localeString'
