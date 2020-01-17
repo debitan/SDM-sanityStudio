@@ -8,16 +8,21 @@ export default {
             title: '活動イメージ',
             type: 'captionImage'
             },
-            {
+        {
             name: 'ourActivity',
             title: '活動文章',
             type: 'localeString',
-            }
+        },
+        {
+            name: 'link',
+            title: 'リンク',
+            type: 'string',
+        }
     ],
     preview: {
       select: {
-        title: 'title',
-        media: 'ourActivityImage1'
+        title: 'ourActivity.ja',
+        media: 'ourActivityImage'
       }
     }
   }
