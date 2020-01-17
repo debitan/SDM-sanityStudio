@@ -55,6 +55,11 @@ export default {
       type: 'localeBlock',
     },
     {
+      name: 'activityTitle',
+      title: '私たちの活動のタイトル',
+      type: 'localeString'
+    },
+    {
       name: 'aboutSDMTitle',
       title: 'SDM-Japanについてのタイトル',
       type: 'localeString'
