@@ -33,6 +33,7 @@ import review from './objects/review'
 import activity from './objects/activity'
 import captionImage from './objects/captionImage'
 import tag from './objects/tag'
+import skill from './objects/skill'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -67,6 +68,7 @@ export default createSchema({
     review,
     activity,
     captionImage,
-    tag
+    tag,
+    skill
   ])
 })

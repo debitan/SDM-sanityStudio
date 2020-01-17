@@ -34,16 +34,10 @@ export default {
       type: 'localeString'
     },
     {
-      name: 'skillImages',
-      title: 'スキルのイメージ',
-      type: 'array',
-      of: [{type: 'captionImage'}]
-    },
-    {
       name: 'skill',
       title: 'スキル',
       type: 'array',
-      of: [{type: 'localeString'}]
+      of: [{type: 'skill'}]
     },
     {
       name: 'eventCollab',
