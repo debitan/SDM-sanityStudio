@@ -10,7 +10,7 @@ export default {
         },
         {
             name: 'caption',
-            title: 'キャプション',
+            title: '代替テクスト',
             type: 'localeString',
             validation: rule => rule.required()
         }
