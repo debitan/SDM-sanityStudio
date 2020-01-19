@@ -1,7 +1,7 @@
 export default {
     name: 'profile',
     title: 'プロフィール',
-    type: 'object',
+    type: 'document',
     fields: [
         {
             name: 'name',
