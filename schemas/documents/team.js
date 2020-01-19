@@ -16,6 +16,11 @@ export default {
             of: [{type: 'director'}]
         },
         {
+            name: 'teamTitle',
+            title: 'チームタイオル',
+            type: 'localeString'
+        },
+        {
             name: 'teamIntro',
             title: 'チーム文章',
             type: 'localeBlock'
