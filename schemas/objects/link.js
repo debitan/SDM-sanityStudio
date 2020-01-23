@@ -16,7 +16,7 @@ export default {
     ],
     preview: {
         select: {
-            title: 'link'
+            title: 'link.ja'
         }
     }
 }
