@@ -19,6 +19,14 @@ export default {
             type: 'localeBlock'
         },
         {
+            name: 'publicationDate',
+            title: '発売日付',
+            type: 'date',
+            options: {
+                dateFormat: 'YYYY-MM-DD'
+            }
+        },
+        {
             name: 'link',
             title: 'リンク',
             type: 'array',
