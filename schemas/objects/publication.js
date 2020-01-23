@@ -1,7 +1,7 @@
 export default {
     name: 'publication',
     title: '出版',
-    type: 'object',
+    type: 'document',
     fields: [
         {
             name: 'title',

@@ -89,5 +89,5 @@ export default () =>
                 )
             ])
       ),
-        ...S.documentTypeListItems().filter(listItems => !['seo', 'homePage', 'header', 'footer', 'ourActivities', 'whoWeAre', 'team', 'reports', 'publications', 'workshops', 'events', 'profile'].includes(listItems.getId()))
+        ...S.documentTypeListItems().filter(listItems => !['seo', 'homePage', 'header', 'footer', 'ourActivities', 'whoWeAre', 'team', 'reports', 'publications', 'workshops', 'events', 'profile', 'publication', 'externalMedia', 'internalMedia'].includes(listItems.getId()))
     ])

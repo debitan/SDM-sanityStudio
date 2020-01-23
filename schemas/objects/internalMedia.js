@@ -1,7 +1,7 @@
 export default {
     name: 'internalMedia',
     title: '内部メディア',
-    type: 'object',
+    type: 'document',
     fields: [
         {
             name: 'title',

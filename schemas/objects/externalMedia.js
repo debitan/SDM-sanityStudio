@@ -1,7 +1,7 @@
 export default {
     name: 'externalMedia',
     title: '外部メディア',
-    type: 'object',
+    type: 'document',
     fields: [
         {
             name: 'title',
