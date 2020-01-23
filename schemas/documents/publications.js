@@ -11,7 +11,7 @@ export default {
             name: 'publications',
             title: '出版',
             type: 'array',
-            of: [{type: 'publication'}],
+            of: [{type: 'printedMedia'}],
             fieldset: 'publications'
         },
         {

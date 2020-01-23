@@ -1,5 +1,5 @@
 export default {
-    name: 'publication',
+    name: 'printedMedia',
     title: '出版',
     type: 'document',
     fields: [

@@ -24,7 +24,7 @@ import profile from './objects/profile'
 import director from './objects/director'
 import report from './objects/report'
 import link from './objects/link'
-import publication from './objects/publication'
+import printedMedia from './objects/printedMedia'
 import internalMedia from './objects/internalMedia'
 import externalMedia from './objects/externalMedia'
 import workshop from './objects/workshop'
@@ -57,7 +57,7 @@ export default createSchema({
     reports,
     report,
     link,
-    publication,
+    printedMedia,
     publications,
     internalMedia,
     externalMedia,
