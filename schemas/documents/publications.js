@@ -8,11 +8,21 @@ export default {
     ],
     fields: [
         {
+            name: 'publicationsTitle',
+            title: '出版タイトル',
+            type: 'localeString'
+        },
+        {
             name: 'publications',
             title: '出版',
             type: 'array',
             of: [{type: 'printedMedia'}],
             fieldset: 'publications'
+        },
+        {
+            name: 'mediaTitle',
+            title: 'メデイアタイトル',
+            type: 'localeString'
         },
         {
             name: 'internalMedia',
