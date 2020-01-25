@@ -16,6 +16,7 @@ import reports from './documents/reports'
 import publications from './documents/publications'
 import workshops from './documents/workshops'
 import events from './documents/events'
+import contact from './documents/contact'
 
 // object schemas
 import localeBlock from './locale/localeBlock'
@@ -69,6 +70,7 @@ export default createSchema({
     activity,
     captionImage,
     tag,
-    skill
+    skill,
+    contact
   ])
 })

@@ -86,8 +86,15 @@ export default () =>
                   S.editor()
                     .schemaType('events')
                     .documentId('events')
+                ),
+                S.listItem()
+                .title('Contact')
+                .child(
+                  S.editor()
+                    .schemaType('contact')
+                    .documentId('contact')
                 )
             ])
       ),
-        ...S.documentTypeListItems().filter(listItems => !['seo', 'homePage', 'header', 'footer', 'ourActivities', 'whoWeAre', 'team', 'reports', 'publications', 'workshops', 'events', 'profile', 'printedMedia', 'externalMedia', 'internalMedia'].includes(listItems.getId()))
+        ...S.documentTypeListItems().filter(listItems => !['seo', 'homePage', 'header', 'footer', 'ourActivities', 'whoWeAre', 'team', 'reports', 'publications', 'workshops', 'events', 'profile', 'printedMedia', 'externalMedia', 'internalMedia', 'contact'].includes(listItems.getId()))
     ])
