@@ -12,6 +12,16 @@ export default {
             name: 'follow',
             title: 'フォロー文章',
             type: 'localeString'
+        },
+        {
+            name: 'instagramUrl',
+            title: 'インストグラムのリンク',
+            type: 'url'
+        },
+        {
+            name: 'facebookUrl',
+            title: 'フェイスブックのリンク',
+            type: 'url'
         }
     ],
     preview: {
