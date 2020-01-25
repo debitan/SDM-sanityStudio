@@ -4,11 +4,6 @@ export default {
     type: 'document',
     fields: [
         {
-            name: 'donateImage',
-            title: '寄付イメージ',
-            type: 'captionImage'
-        },
-        {
             name: 'donateTitle',
             title: '寄付タイトル',
             type: 'localeString'
@@ -27,22 +22,7 @@ export default {
             name: 'mailingListBody',
             title: 'メーリングリストの言葉',
             type: 'localeBlock'
-        },
-        {
-            name: 'instagramLogo',
-            title: 'インストグラムのロゴ',
-            type: 'captionImage'
-        },
-        {
-            name: 'facebookLogo',
-            title: 'フェースブックのロゴ',
-            type: 'captionImage'
-        },
-        {
-            name: 'nipponFoundationLogo',
-            title: '日本財団のロゴ',
-            type: 'captionImage'
-        },
+        }
     ],
     preview: {
         select: {

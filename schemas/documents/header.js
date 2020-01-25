@@ -4,11 +4,6 @@ export default {
     type: 'document',
     fields: [
         {
-            name: 'logo',
-            title: 'ブランドロゴ',
-            type: 'captionImage'
-        },
-        {
             name: 'phone',
             title: '電話番号',
             type: 'string'
