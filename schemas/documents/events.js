@@ -4,6 +4,11 @@ export default {
     type: 'document',
     fields: [
         {
+            name: 'eventPageTitle',
+            title: 'イベントページタイトル',
+            type: 'localeString'
+        },
+        {
             name: 'event',
             title: 'イベント',
             type: 'array',
@@ -13,6 +18,11 @@ export default {
             name: 'eventBody',
             title: 'イベント文章',
             type: 'localeBlock'
+        },
+        {
+            name: 'reviewTitle',
+            title: '体験談のタイトル',
+            type: 'localeString'
         },
         {
             name: 'review',

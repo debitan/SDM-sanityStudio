@@ -29,28 +29,58 @@ export default {
             type: 'file'
         },
         {
+            name: 'locationTitle',
+            title: '会場のタイトル',
+            type: 'localeString'
+        },
+        {
             name: 'location',
             title: '会場',
+            type: 'localeBlock'
+        },
+        {
+            name: 'directionsTitle',
+            title: '道順のタイトル',
             type: 'localeString'
         },
         {
             name: 'directions',
             title: '道順',
+            type: 'localeBlock'
+        },
+        {
+            name: 'priceTitle',
+            title: '参加費タイトル',
             type: 'localeString'
         },
         {
             name: 'price',
             title: '参加費',
+            type: 'localeBlock'
+        },
+        {
+            name: 'audienceTitle',
+            title: '対象のタイトル',
             type: 'localeString'
         },
         {
             name: 'audience',
             title: '対象',
+            type: 'localeBlock'
+        },
+        {
+            name: 'capacityTitle',
+            title: '定員のタイトル',
             type: 'localeString'
         },
         {
             name: 'capacity',
             title: '定員',
+            type: 'localeBlock'
+        },
+        {
+            name: 'contentsTitle',
+            title: '内容のタイトル',
             type: 'localeString'
         },
         {
