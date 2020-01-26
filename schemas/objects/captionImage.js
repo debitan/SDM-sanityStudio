@@ -17,7 +17,7 @@ export default {
     ],
     preview: {
         select: {
-            title: 'image.caption',
+            title: 'caption.ja',
             media: 'image'
         }
     }

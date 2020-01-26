@@ -15,7 +15,7 @@ import team from './documents/team'
 import reports from './documents/reports'
 import publications from './documents/publications'
 import workshops from './documents/workshops'
-import events from './documents/events'
+import eventsPage from './documents/events'
 import contact from './documents/contact'
 
 // object schemas
@@ -35,6 +35,7 @@ import activity from './objects/activity'
 import captionImage from './objects/captionImage'
 import tag from './objects/tag'
 import skill from './objects/skill'
+import internalLink from './objects/internalLink'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -65,12 +66,13 @@ export default createSchema({
     workshop,
     workshops,
     event,
-    events,
+    eventsPage,
     review,
     activity,
     captionImage,
     tag,
     skill,
-    contact
+    contact,
+    internalLink
   ])
 })

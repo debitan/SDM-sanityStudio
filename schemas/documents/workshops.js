@@ -4,6 +4,21 @@ export default {
     type: 'document',
     fields: [
         {
+            name: 'workshopTitle',
+            title: 'ワークショップページタイトル',
+            type: 'localeString'
+        },
+        {
+            name: 'currentEvents',
+            title: '開催予定イベントリンク',
+            type: 'internalLink'
+        },
+        {
+            name: 'requestSpeaker',
+            title: '講師を依頼',
+            type: 'internalLink'
+        },
+        {
             name: 'workshop',
             title: 'ワークショップ',
             type: 'array',

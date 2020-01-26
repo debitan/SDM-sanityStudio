@@ -20,6 +20,11 @@ export default {
             of: [{type: 'tag'}]
         },
         {
+            name: 'audienceTitle',
+            title: '対象タイトル',
+            type: 'localeString',
+        },
+        {
             name: 'audience',
             title: '対象',
             type: 'localeString',
@@ -34,8 +39,7 @@ export default {
             name: 'image',
             title: 'イメージ',
             type: 'array',
-            of: [{type: 'captionImage'}],
-            validation: rule => rule.max(2)
+            of: [{type: 'captionImage'}]
         }
     ],
     preview: {

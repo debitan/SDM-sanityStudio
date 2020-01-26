@@ -1,7 +1,7 @@
 export default {
     name: 'event',
     title: 'イベント',
-    type: 'object',
+    type: 'document',
     fields: [
         {
             name: 'title',
@@ -36,16 +36,6 @@ export default {
         {
             name: 'location',
             title: '会場',
-            type: 'localeBlock'
-        },
-        {
-            name: 'directionsTitle',
-            title: '道順のタイトル',
-            type: 'localeString'
-        },
-        {
-            name: 'directions',
-            title: '道順',
             type: 'localeBlock'
         },
         {

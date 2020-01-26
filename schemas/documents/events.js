@@ -1,5 +1,5 @@
 export default {
-    name: 'events',
+    name: 'eventsPage',
     title: 'イベント',
     type: 'document',
     fields: [
