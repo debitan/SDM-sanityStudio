@@ -84,8 +84,8 @@ export default () =>
                 .title('Events')
                 .child(
                   S.editor()
-                    .schemaType('events')
-                    .documentId('events')
+                    .schemaType('eventsPage')
+                    .documentId('eventsPage')
                 ),
                 S.listItem()
                 .title('Contact')
@@ -96,5 +96,5 @@ export default () =>
                 )
             ])
       ),
-        ...S.documentTypeListItems().filter(listItems => !['seo', 'homePage', 'header', 'footer', 'ourActivities', 'whoWeAre', 'team', 'reports', 'publications', 'workshops', 'events', 'profile', 'printedMedia', 'externalMedia', 'internalMedia', 'contact', 'event'].includes(listItems.getId()))
+        ...S.documentTypeListItems().filter(listItems => !['seo', 'homePage', 'header', 'footer', 'ourActivities', 'whoWeAre', 'team', 'reports', 'publications', 'workshops', 'event', 'profile', 'printedMedia', 'externalMedia', 'internalMedia', 'contact', 'eventsPage'].includes(listItems.getId()))
     ])

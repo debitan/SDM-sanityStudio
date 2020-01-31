@@ -15,7 +15,7 @@ import team from './documents/team'
 import reports from './documents/reports'
 import publications from './documents/publications'
 import workshops from './documents/workshops'
-import eventsPage from './documents/events'
+import eventsPage from './documents/eventsPage'
 import contact from './documents/contact'
 
 // object schemas
