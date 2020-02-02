@@ -1,16 +1,16 @@
 export default {
     name: 'report',
-    title: 'リポート',
+    title: 'レポート',
     type: 'object',
     fields: [
         {
             name: 'report',
-            title: 'リポート',
+            title: 'レポート',
             type: 'file'
         },
         {
             name: 'title',
-            title: 'リポート名',
+            title: 'レポート名',
             type: 'localeString'
         },
         {
