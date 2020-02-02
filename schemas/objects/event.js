@@ -16,7 +16,8 @@ export default {
         {
             name: 'date',
             title: '日付',
-            type: 'localeString'
+            type: 'array',
+            of: [{type: 'localeString'}]
         },
         {
             name: 'image',
