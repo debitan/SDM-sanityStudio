@@ -108,7 +108,7 @@ export default {
     ],
     preview: {
         select: {
-            title: 'title',
+            title: 'sectionOneTitle.ja',
             media: 'sectionOneBackgroundImage'
         }
     }

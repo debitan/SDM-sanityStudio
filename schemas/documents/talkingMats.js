@@ -1,6 +1,6 @@
 export default {
     name: 'talkingMats',
-    title: 'トーキングマット',
+    title: 'Talking Mats',
     type: 'document',
     fields: [
         {
@@ -21,7 +21,7 @@ export default {
     ],
     preview: {
         select: {
-            title: 'title'
+            title: 'title.ja'
         }
     }
 }

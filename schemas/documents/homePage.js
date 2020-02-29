@@ -75,10 +75,4 @@ export default {
       type: 'localeBlock'
     }
   ],
-  preview: {
-    select: {
-      title: 'title',
-      media: 'ourActivityImage1'
-    }
-  }
 }

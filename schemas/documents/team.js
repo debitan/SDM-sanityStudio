@@ -38,7 +38,7 @@ export default {
     ],
     preview: {
         select: {
-            title: 'title',
+            title: 'teamTitle.ja',
             media: 'teamPhoto'
         }
     }

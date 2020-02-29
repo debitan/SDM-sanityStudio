@@ -33,7 +33,7 @@ export default {
     ],
     preview: {
         select: {
-            title: 'event.0.title.jp'
+            title: 'eventPageTitle.ja'
         }
     }
 }

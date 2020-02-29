@@ -10,10 +10,4 @@ export default {
             of: [{type: 'report'}]
         },
     ],
-    preview: {
-        select: {
-            title: 'title',
-            media: 'teamPhoto'
-        }
-    }
 }
