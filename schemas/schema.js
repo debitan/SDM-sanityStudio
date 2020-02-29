@@ -17,6 +17,7 @@ import publications from './documents/publications'
 import workshops from './documents/workshops'
 import eventsPage from './documents/eventsPage'
 import contact from './documents/contact'
+import talkingMats from './documents/talkingMats'
 
 // object schemas
 import localeBlock from './locale/localeBlock'
@@ -36,6 +37,7 @@ import captionImage from './objects/captionImage'
 import tag from './objects/tag'
 import skill from './objects/skill'
 import internalLink from './objects/internalLink'
+import youtube from './objects/youtube'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -73,6 +75,8 @@ export default createSchema({
     tag,
     skill,
     contact,
-    internalLink
+    internalLink,
+    talkingMats,
+    youtube
   ])
 })

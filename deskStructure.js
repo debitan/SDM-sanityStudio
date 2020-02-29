@@ -93,8 +93,15 @@ export default () =>
                   S.editor()
                     .schemaType('contact')
                     .documentId('contact')
+                ),
+                S.listItem()
+                .title('Talking Mats')
+                .child(
+                  S.editor()
+                    .schemaType('talkingMats')
+                    .documentId('talkingMats')
                 )
             ])
       ),
-        ...S.documentTypeListItems().filter(listItems => !['seo', 'homePage', 'header', 'footer', 'ourActivities', 'whoWeAre', 'team', 'reports', 'publications', 'workshops', 'event', 'profile', 'printedMedia', 'externalMedia', 'internalMedia', 'contact', 'eventsPage'].includes(listItems.getId()))
+        ...S.documentTypeListItems().filter(listItems => !['seo', 'homePage', 'header', 'footer', 'ourActivities', 'whoWeAre', 'team', 'reports', 'publications', 'workshops', 'event', 'profile', 'printedMedia', 'externalMedia', 'internalMedia', 'contact', 'eventsPage', 'talkingMats'].includes(listItems.getId()))
     ])

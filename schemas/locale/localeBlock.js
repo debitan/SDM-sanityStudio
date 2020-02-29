@@ -16,7 +16,7 @@ fields: supportedLanguages.map(lang => (
     title: lang.title,
     name: lang.id,
     type: 'array',
-    of: [{type: 'block'}],
+    of: [{type: 'block'}, {type: 'captionImage'}, {type: 'youtube'}],
     fieldset: lang.isDefault ? null : 'translations'
     }
 ))
