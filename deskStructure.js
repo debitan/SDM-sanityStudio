@@ -4,104 +4,136 @@ export default () =>
   S.list()
     .title('Content')
     .items([
-        S.listItem()
-          .title('SEO')
-          .child(
-            S.editor()
-              .schemaType('seo')
-              .documentId('seo')
-          ),
+      S.listItem()
+        .title('SEO')
+        .child(
+          S.editor()
+            .schemaType('seo')
+            .documentId('seo')
+        ),
       S.listItem()
         .title('Pages')
         .child(
-            S.list()
+          S.list()
             .title('Pages')
             .items([
-                S.listItem()
+              S.listItem()
                 .title('Home Page')
                 .child(
-                    S.editor()
-                      .schemaType('homePage')
-                      .documentId('homePage')
+                  S.editor()
+                    .schemaType('homePage')
+                    .documentId('homePage')
                 ),
-                S.listItem()
+              S.listItem()
                 .title('Header')
                 .child(
                   S.editor()
                     .schemaType('header')
                     .documentId('header')
                 ),
-                S.listItem()
+              S.listItem()
                 .title('Footer')
                 .child(
                   S.editor()
                     .schemaType('footer')
                     .documentId('footer')
                 ),
-                S.listItem()
+              S.listItem()
                 .title('Our activities')
                 .child(
                   S.editor()
                     .schemaType('ourActivities')
                     .documentId('ourActivities')
                 ),
-                S.listItem()
+              S.listItem()
                 .title('Who we are')
                 .child(
                   S.editor()
                     .schemaType('whoWeAre')
                     .documentId('whoWeAre')
                 ),
-                S.listItem()
+              S.listItem()
                 .title('Team')
                 .child(
                   S.editor()
                     .schemaType('team')
                     .documentId('team')
                 ),
-                S.listItem()
+              S.listItem()
                 .title('Report')
                 .child(
                   S.editor()
                     .schemaType('reports')
                     .documentId('reports')
                 ),
-                S.listItem()
+              S.listItem()
                 .title('Publications')
                 .child(
                   S.editor()
                     .schemaType('publications')
                     .documentId('publications')
                 ),
-                S.listItem()
+              S.listItem()
                 .title('Workshops')
                 .child(
                   S.editor()
                     .schemaType('workshops')
                     .documentId('workshops')
                 ),
-                S.listItem()
+              S.listItem()
                 .title('Events')
                 .child(
                   S.editor()
                     .schemaType('eventsPage')
                     .documentId('eventsPage')
                 ),
-                S.listItem()
+              S.listItem()
                 .title('Contact')
                 .child(
                   S.editor()
                     .schemaType('contact')
                     .documentId('contact')
                 ),
-                S.listItem()
+              S.listItem()
                 .title('Talking Mats')
                 .child(
                   S.editor()
                     .schemaType('talkingMats')
                     .documentId('talkingMats')
-                )
+                ),
+              S.listItem()
+                .title('News')
+                .child(
+                  S.editor()
+                    .schemaType('news')
+                    .documentId('news')
+                ),
             ])
+        ),
+      ...S.documentTypeListItems().filter(
+        listItems =>
+          ![
+            'seo',
+            'homePage',
+            'header',
+            'footer',
+            'ourActivities',
+            'whoWeAre',
+            'team',
+            'reports',
+            'publications',
+            'workshops',
+            'event',
+            'profile',
+            'printedMedia',
+            'externalMedia',
+            'internalMedia',
+            'contact',
+            'eventsPage',
+            'talkingMats',
+            'news',
+            'article',
+            'articleTag',
+          ].includes(listItems.getId())
       ),
-        ...S.documentTypeListItems().filter(listItems => !['seo', 'homePage', 'header', 'footer', 'ourActivities', 'whoWeAre', 'team', 'reports', 'publications', 'workshops', 'event', 'profile', 'printedMedia', 'externalMedia', 'internalMedia', 'contact', 'eventsPage', 'talkingMats'].includes(listItems.getId()))
     ])
