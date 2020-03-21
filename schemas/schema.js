@@ -19,6 +19,7 @@ import eventsPage from './documents/eventsPage'
 import contact from './documents/contact'
 import talkingMats from './documents/talkingMats'
 import news from './documents/news'
+import requestASpeaker from './documents/requestASpeaker'
 
 // object schemas
 import localeBlock from './locale/localeBlock'
@@ -84,5 +85,6 @@ export default createSchema({
     news,
     article,
     articleTag,
+    requestASpeaker,
   ]),
 })

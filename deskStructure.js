@@ -108,6 +108,13 @@ export default () =>
                     .schemaType('news')
                     .documentId('news')
                 ),
+              S.listItem()
+                .title('Request a speaker')
+                .child(
+                  S.editor()
+                    .schemaType('requestASpeaker')
+                    .documentId('requestASpeaker')
+                ),
             ])
         ),
       ...S.documentTypeListItems().filter(
@@ -134,6 +141,7 @@ export default () =>
             'news',
             'article',
             'articleTag',
+            'requestASpeaker',
           ].includes(listItems.getId())
       ),
     ])
