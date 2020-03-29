@@ -115,6 +115,27 @@ export default () =>
                     .schemaType('requestASpeaker')
                     .documentId('requestASpeaker')
                 ),
+              S.listItem()
+                .title('SNS')
+                .child(
+                  S.editor()
+                    .schemaType('sns')
+                    .documentId('sns')
+                ),
+              S.listItem()
+                .title('Become a member')
+                .child(
+                  S.editor()
+                    .schemaType('becomeAMember')
+                    .documentId('becomeAMember')
+                ),
+              S.listItem()
+                .title('Resources')
+                .child(
+                  S.editor()
+                    .schemaType('resourcesPage')
+                    .documentId('resourcesPage')
+                ),
             ])
         ),
       ...S.documentTypeListItems().filter(
@@ -142,6 +163,9 @@ export default () =>
             'article',
             'articleTag',
             'requestASpeaker',
+            'sns',
+            'becomeAMember',
+            'resourcesPage',
           ].includes(listItems.getId())
       ),
     ])

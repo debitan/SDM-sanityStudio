@@ -20,6 +20,9 @@ import contact from './documents/contact'
 import talkingMats from './documents/talkingMats'
 import news from './documents/news'
 import requestASpeaker from './documents/requestASpeaker'
+import sns from './documents/sns'
+import becomeAMember from './documents/becomeAMember'
+import resourcesPage from './documents/resourcesPage'
 
 // object schemas
 import localeBlock from './locale/localeBlock'
@@ -42,6 +45,8 @@ import internalLink from './objects/internalLink'
 import youtube from './objects/youtube'
 import article from './objects/article'
 import articleTag from './objects/articleTag'
+import svg from './objects/svg'
+import resource from './objects/resource'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -86,5 +91,10 @@ export default createSchema({
     article,
     articleTag,
     requestASpeaker,
+    sns,
+    becomeAMember,
+    svg,
+    resourcesPage,
+    resource,
   ]),
 })

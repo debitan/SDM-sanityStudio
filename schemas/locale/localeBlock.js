@@ -49,6 +49,7 @@ export default {
       },
       { type: 'captionImage' },
       { type: 'youtube' },
+      { type: 'svg' },
     ],
     fieldset: lang.isDefault ? null : 'translations',
   })),
