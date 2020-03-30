@@ -14,10 +14,16 @@ export default {
       type: 'localeString',
     },
     {
-      name: 'resources',
-      title: '事績',
+      name: 'videoResources',
+      title: '動画事績',
       type: 'array',
       of: [{ type: 'resource' }],
+    },
+    {
+      name: 'imageResources',
+      title: 'イメージ事績',
+      type: 'array',
+      of: [{ type: 'externalMedia' }],
     },
   ],
   preview: {
