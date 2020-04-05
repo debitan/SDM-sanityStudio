@@ -97,6 +97,9 @@ export default () =>
               S.listItem()
                 .title('PFT')
                 .child(S.editor().schemaType('pft').documentId('pft')),
+              S.listItem()
+                .title('Video')
+                .child(S.editor().schemaType('video').documentId('video')),
             ])
         ),
       ...S.documentTypeListItems().filter(
@@ -128,6 +131,7 @@ export default () =>
             'becomeAMember',
             'resourcesPage',
             'pft',
+            'video',
           ].includes(listItems.getId())
       ),
     ])

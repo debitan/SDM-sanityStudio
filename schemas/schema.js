@@ -24,6 +24,7 @@ import sns from './documents/sns'
 import becomeAMember from './documents/becomeAMember'
 import resourcesPage from './documents/resourcesPage'
 import pft from './documents/pft'
+import video from './documents/video'
 
 // object schemas
 import localeBlock from './locale/localeBlock'
@@ -96,5 +97,6 @@ export default createSchema({
     svg,
     resourcesPage,
     pft,
+    video,
   ]),
 })
