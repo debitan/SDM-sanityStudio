@@ -46,7 +46,6 @@ import youtube from './objects/youtube'
 import article from './objects/article'
 import articleTag from './objects/articleTag'
 import svg from './objects/svg'
-import resource from './objects/resource'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -95,6 +94,5 @@ export default createSchema({
     becomeAMember,
     svg,
     resourcesPage,
-    resource,
   ]),
 })

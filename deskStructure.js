@@ -6,11 +6,7 @@ export default () =>
     .items([
       S.listItem()
         .title('SEO')
-        .child(
-          S.editor()
-            .schemaType('seo')
-            .documentId('seo')
-        ),
+        .child(S.editor().schemaType('seo').documentId('seo')),
       S.listItem()
         .title('Pages')
         .child(
@@ -20,24 +16,14 @@ export default () =>
               S.listItem()
                 .title('Home Page')
                 .child(
-                  S.editor()
-                    .schemaType('homePage')
-                    .documentId('homePage')
+                  S.editor().schemaType('homePage').documentId('homePage')
                 ),
               S.listItem()
                 .title('Header')
-                .child(
-                  S.editor()
-                    .schemaType('header')
-                    .documentId('header')
-                ),
+                .child(S.editor().schemaType('header').documentId('header')),
               S.listItem()
                 .title('Footer')
-                .child(
-                  S.editor()
-                    .schemaType('footer')
-                    .documentId('footer')
-                ),
+                .child(S.editor().schemaType('footer').documentId('footer')),
               S.listItem()
                 .title('Our activities')
                 .child(
@@ -48,24 +34,14 @@ export default () =>
               S.listItem()
                 .title('Who we are')
                 .child(
-                  S.editor()
-                    .schemaType('whoWeAre')
-                    .documentId('whoWeAre')
+                  S.editor().schemaType('whoWeAre').documentId('whoWeAre')
                 ),
               S.listItem()
                 .title('Team')
-                .child(
-                  S.editor()
-                    .schemaType('team')
-                    .documentId('team')
-                ),
+                .child(S.editor().schemaType('team').documentId('team')),
               S.listItem()
                 .title('Report')
-                .child(
-                  S.editor()
-                    .schemaType('reports')
-                    .documentId('reports')
-                ),
+                .child(S.editor().schemaType('reports').documentId('reports')),
               S.listItem()
                 .title('Publications')
                 .child(
@@ -76,38 +52,24 @@ export default () =>
               S.listItem()
                 .title('Workshops')
                 .child(
-                  S.editor()
-                    .schemaType('workshops')
-                    .documentId('workshops')
+                  S.editor().schemaType('workshops').documentId('workshops')
                 ),
               S.listItem()
                 .title('Events')
                 .child(
-                  S.editor()
-                    .schemaType('eventsPage')
-                    .documentId('eventsPage')
+                  S.editor().schemaType('eventsPage').documentId('eventsPage')
                 ),
               S.listItem()
                 .title('Contact')
-                .child(
-                  S.editor()
-                    .schemaType('contact')
-                    .documentId('contact')
-                ),
+                .child(S.editor().schemaType('contact').documentId('contact')),
               S.listItem()
                 .title('Talking Mats')
                 .child(
-                  S.editor()
-                    .schemaType('talkingMats')
-                    .documentId('talkingMats')
+                  S.editor().schemaType('talkingMats').documentId('talkingMats')
                 ),
               S.listItem()
                 .title('News')
-                .child(
-                  S.editor()
-                    .schemaType('news')
-                    .documentId('news')
-                ),
+                .child(S.editor().schemaType('news').documentId('news')),
               S.listItem()
                 .title('Request a speaker')
                 .child(
@@ -117,11 +79,7 @@ export default () =>
                 ),
               S.listItem()
                 .title('SNS')
-                .child(
-                  S.editor()
-                    .schemaType('sns')
-                    .documentId('sns')
-                ),
+                .child(S.editor().schemaType('sns').documentId('sns')),
               S.listItem()
                 .title('Become a member')
                 .child(

@@ -14,12 +14,6 @@ export default {
       type: 'localeString',
     },
     {
-      name: 'videoResources',
-      title: '動画事績',
-      type: 'array',
-      of: [{ type: 'resource' }],
-    },
-    {
       name: 'imageResources',
       title: 'イメージ事績',
       type: 'array',
