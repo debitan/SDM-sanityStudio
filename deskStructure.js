@@ -94,6 +94,9 @@ export default () =>
                     .schemaType('resourcesPage')
                     .documentId('resourcesPage')
                 ),
+              S.listItem()
+                .title('PFT')
+                .child(S.editor().schemaType('pft').documentId('pft')),
             ])
         ),
       ...S.documentTypeListItems().filter(
@@ -124,6 +127,7 @@ export default () =>
             'sns',
             'becomeAMember',
             'resourcesPage',
+            'pft',
           ].includes(listItems.getId())
       ),
     ])

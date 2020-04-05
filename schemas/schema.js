@@ -23,6 +23,7 @@ import requestASpeaker from './documents/requestASpeaker'
 import sns from './documents/sns'
 import becomeAMember from './documents/becomeAMember'
 import resourcesPage from './documents/resourcesPage'
+import pft from './documents/pft'
 
 // object schemas
 import localeBlock from './locale/localeBlock'
@@ -94,5 +95,6 @@ export default createSchema({
     becomeAMember,
     svg,
     resourcesPage,
+    pft,
   ]),
 })
