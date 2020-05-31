@@ -29,6 +29,11 @@ export default {
       type: 'captionImage',
     },
     {
+      name: 'twitterImage',
+      title: 'ツイッターのイメージ',
+      type: 'captionImage',
+    },
+    {
       name: 'facebookLink',
       title: 'フェイスブックリンク',
       type: 'image',
@@ -36,6 +41,11 @@ export default {
     {
       name: 'instagramLink',
       title: 'インストグラムリンク',
+      type: 'image',
+    },
+    {
+      name: 'twitterLink',
+      title: 'ツイッターリンク',
       type: 'image',
     },
   ],
