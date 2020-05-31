@@ -28,5 +28,20 @@ export default {
       title: 'ツイッターのリンク',
       type: 'url',
     },
+    {
+      name: 'instagramLogo',
+      title: 'インストグラムのロゴ',
+      type: 'captionImage',
+    },
+    {
+      name: 'facebookLogo',
+      title: 'フェイスブックのロゴ',
+      type: 'captionImage',
+    },
+    {
+      name: 'twitterLogo',
+      title: 'ツイッターのロゴ',
+      type: 'captionImage',
+    },
   ],
 }
