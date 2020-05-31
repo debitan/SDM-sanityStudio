@@ -1,13 +1,13 @@
 export default {
-    name: 'reports',
-    title: 'リポート',
-    type: 'document',
-    fields: [
-        {
-            name: 'reports',
-            title: 'リポート',
-            type: 'array',
-            of: [{type: 'report'}]
-        },
-    ],
+  name: 'reports',
+  title: '活動報告書',
+  type: 'document',
+  fields: [
+    {
+      name: 'reports',
+      title: '活動報告書',
+      type: 'array',
+      of: [{ type: 'report' }],
+    },
+  ],
 }
