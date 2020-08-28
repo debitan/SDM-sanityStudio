@@ -100,6 +100,11 @@ export default () =>
               S.listItem()
                 .title('Video')
                 .child(S.editor().schemaType('video').documentId('video')),
+              S.listItem()
+                .title('What We Do')
+                .child(
+                  S.editor().schemaType('whatWeDo').documentId('whatWeDo')
+                ),
             ])
         ),
       ...S.documentTypeListItems().filter(
@@ -132,6 +137,7 @@ export default () =>
             'resourcesPage',
             'pft',
             'video',
+            'whatWeDo',
           ].includes(listItems.getId())
       ),
     ])

@@ -25,6 +25,7 @@ import becomeAMember from './documents/becomeAMember'
 import resourcesPage from './documents/resourcesPage'
 import pft from './documents/pft'
 import video from './documents/video'
+import whatWeDo from './documents/whatWeDo'
 
 // object schemas
 import localeBlock from './locale/localeBlock'
@@ -98,5 +99,6 @@ export default createSchema({
     resourcesPage,
     pft,
     video,
+    whatWeDo,
   ]),
 })
